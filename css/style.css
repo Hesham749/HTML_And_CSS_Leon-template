@@ -351,7 +351,7 @@ header .links ul li:not(:last-child){
     z-index: -1;
 }
 @media (max-width:559px) {
-    .about-content .image::before,.about-content .image::after{
+    .about-content .image::after{
         display: none;
     }
 }
