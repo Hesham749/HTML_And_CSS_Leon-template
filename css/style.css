@@ -350,6 +350,11 @@ header .links ul li:not(:last-child){
     right: -150px;
     z-index: -1;
 }
+@media (max-width:559px) {
+    .about-content .image::before,.about-content .image::after{
+        display: none;
+    }
+}
 
 .about-content .image img {
     max-width: 100%;
